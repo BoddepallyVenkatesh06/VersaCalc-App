@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.gradient-bg {
+  background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+}
+
+
+.gradient-text-logo {
+  background: linear-gradient(90deg, hsla(328, 75%, 45%, 1) 0%, hsla(269, 85%, 41%, 1) 100%);
+}
+
+
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* For Safari/Chrome */
+  color: transparent;
+  background-image: linear-gradient(90deg, hsla(328, 75%, 45%, 1) 0%, hsla(269, 85%, 41%, 1) 100%);
+
+}
+
+
+
+/* for darkMode background color */
+.gradient-dark {
+  background-color: #1b2845;
+  background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+}
+
+.mobile-menu-bg {
+  background: transparent;
+  border: 1px solid black;
+  backdrop-filter: blur(5px);
+}
+
+.gradient-home {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+
+}
+
+
+
+/* for active navbar link
+.navbar-link.active {
+  background-color: rgb(226 232 240);
+  color: black;
+  border-radius: 10px;
+
+}
+
+Color for non-active navbar links on hover
+.navbar-link:not(.active):hover {
+  border-radius: 10px;
+
+  --tw-bg-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-bg-opacity))
+} */
+
+
+.active {
+  background-color: rgb(226 232 240);
+  color: black;
+  border-radius: 10px;
+}
